@@ -17,7 +17,7 @@ public class ExtentTest {
 	public static void startTest()
 	{
 		report = new ExtentReports(System.getProperty("user.dir")+"\\src\\main\\resources\\Reports\\Extend.html");
-		 test12= report.startTest("ExtentDemo");
+		 test12= report.startTest("ExtentDemotest");
 	}
 	@Test
 	public void extentReportsDemo()
